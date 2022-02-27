@@ -5,6 +5,11 @@ Dumb farm right now but about to get smarter
 # Smart Farm Device Constituents
 - I2C-based LCD text screen
 - Relay
+- Fan
+- Water Pump
+- Battery Pack
+- [BME680 Environment Sensor](https://www.adafruit.com/product/3660)
+- [Capacitive Soil Moisture Sensor](https://learn.adafruit.com/adafruit-stemma-soil-sensor-i2c-capacitive-moisture-sensor)
 
 # Folder Structure
  - Basics: Sample code to control single-components of the overall hardware configuration : e.g. relay, I2C LCD display, etc. 

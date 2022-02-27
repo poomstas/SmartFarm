@@ -104,7 +104,7 @@ En = 0b00000100 # Enable bit
 Rw = 0b00000010 # Read/Write bit
 Rs = 0b00000001 # Register select bit
 
-class lcd:
+class LCD:
    #initializes objects and lcd
    def __init__(self):
       self.lcd_device = i2c_device(ADDRESS)
@@ -119,7 +119,6 @@ class lcd:
       self.lcd_write(LCD_CLEARDISPLAY)
       self.lcd_write(LCD_ENTRYMODESET | LCD_ENTRYLEFT)
       sleep(0.2)
-
 
    # clocks EN to latch command
    def lcd_strobe(self, data):

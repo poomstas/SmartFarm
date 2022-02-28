@@ -13,6 +13,12 @@ Tasks related to this project are organized in the [GitHub Projects section](htt
 - [BME680 Environment Sensor](https://www.adafruit.com/product/3660)
 - [Capacitive Soil Moisture Sensor](https://learn.adafruit.com/adafruit-stemma-soil-sensor-i2c-capacitive-moisture-sensor)
 
+**Figure: Distribution of Total Episodic Rewards Retrieved from 1,000 Episodes**
+
+<p align="center">
+  <img src="/images/HW_Layout.png" width="450" title="Hardware Layout">
+</p>
+
 # Folder Structure
  - Basics: Sample code to control single-components of the overall hardware configuration : e.g. relay, I2C LCD display, etc. 
  - Main: Combination of the above code along with process logic coded up.

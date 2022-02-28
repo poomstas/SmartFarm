@@ -2,6 +2,8 @@
 
 Dumb farm right now but about to get smarter
 
+Tasks related to this project are organized in the [GitHub Projects section](https://github.com/poomstas/SmartFarm/projects/1)
+
 # Smart Farm Device Constituents
 - I2C-based LCD text screen
 - Relay

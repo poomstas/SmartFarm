@@ -16,7 +16,7 @@ Tasks related to this project are organized in the [GitHub Projects section](htt
 **Figure: Distribution of Total Episodic Rewards Retrieved from 1,000 Episodes**
 
 <p align="center">
-  <img src="/images/HW_Layout.png" width="450" title="Hardware Layout">
+  <img src="/images/HW_Layout.png" width="800" title="Hardware Layout">
 </p>
 
 # Folder Structure

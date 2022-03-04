@@ -2,6 +2,8 @@
 
 Dumb farm right now but about to get smarter
 
+Tasks related to this project are organized in the [GitHub Projects section](https://github.com/poomstas/SmartFarm/projects/1)
+
 # Smart Farm Device Constituents
 - I2C-based LCD text screen
 - Relay
@@ -10,6 +12,12 @@ Dumb farm right now but about to get smarter
 - Battery Pack
 - [BME680 Environment Sensor](https://www.adafruit.com/product/3660)
 - [Capacitive Soil Moisture Sensor](https://learn.adafruit.com/adafruit-stemma-soil-sensor-i2c-capacitive-moisture-sensor)
+
+**Figure: Distribution of Total Episodic Rewards Retrieved from 1,000 Episodes**
+
+<p align="center">
+  <img src="/images/HW_Layout.png" width="800" title="Hardware Layout">
+</p>
 
 # Folder Structure
  - Basics: Sample code to control single-components of the overall hardware configuration : e.g. relay, I2C LCD display, etc. 

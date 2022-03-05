@@ -67,11 +67,11 @@ try:
             temp, pressure, humidity = round(temp, 1), round(pressure, 1), round(humidity, 1)
             output = '\t{0:.1f} C,\t{1:.1f} hPa,\t{2:.1f} %RH'.format(temp, pressure, humidity)
 
-            output1 = '{0:.1f}C {1:.1f} hPa'.format(temp, pressure)
+            output1 = '{0:.1f}C {1:.1f}hPa'.format(temp, pressure)
             output2 = '{0:.1f}%RH '.format(humidity)
 
             if sensor.data.heat_stable:
-                output2 += '{:4.1f} kOhms'.format(round(sensor.data.gas_resistance/1000, 1))
+                output2 += '{:4.1f}kOhms'.format(round(sensor.data.gas_resistance/1000, 1))
                 print("\t" + output1 + " " + output2)
             else:
                 print(output)

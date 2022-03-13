@@ -5,6 +5,8 @@ print("""read-all.py - Displays temperature, pressure, humidity, and gas.
 Press Ctrl+C to exit!
 """)
 
+print('Primary I2C Address: ', bme680.I2C_ADDR_PRIMARY)
+print('Secondary I2C Address: ', bme680.I2C_ADDR_SECONDARY)
 try:
     sensor = bme680.BME680(bme680.I2C_ADDR_PRIMARY)
 except (RuntimeError, IOError):
